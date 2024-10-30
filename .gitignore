@@ -16,3 +16,4 @@ datasets/*
 .stfolder
 .stignore
 *sync-conflict*
+env

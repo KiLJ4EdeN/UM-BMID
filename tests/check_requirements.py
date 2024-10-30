@@ -6,7 +6,7 @@ October 15th, 2019
 
 import pkg_resources  # Package is included in Python
 
-with open('..\\requirements.txt', 'rb') as file:
+with open('./requirements.txt', 'rb') as file:
 
     # Get the required package names
     package_names = [ff.strip().decode('utf-8') for ff in file]
